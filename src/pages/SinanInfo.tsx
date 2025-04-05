@@ -33,6 +33,12 @@ const SinanInfo = () => {
                 Ir para o Quiz
               </Button>
             </Link>
+
+            <Link to="/quiztheory">
+              <Button className="bg-health-600 hover:bg-health-700">
+                || Ir para o Quiz teórico
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

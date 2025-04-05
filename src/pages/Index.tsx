@@ -175,11 +175,17 @@ const Index = () => {
                 Material completo sobre legislação, fiscalização e atuação profissional
               </p>
               
-              <div className="mt-6">
+              <div className="mt-6 flex flex-wrap justify-center gap-3">
                 <Link to="/quiz">
                   <Button className="bg-health-600 hover:bg-health-700 flex items-center gap-2">
                     <BookIcon size={18} />
-                    Testar conhecimentos no Quiz
+                    Quiz de Casos Clínicos
+                  </Button>
+                </Link>
+                <Link to="/quiztheory">
+                  <Button className="bg-health-600 hover:bg-health-700 flex items-center gap-2">
+                    <CheckSquare size={18} />
+                    Quiz Teórico
                   </Button>
                 </Link>
                 <Link to="/sinaninfo" className="ml-4 inline-block">
@@ -235,6 +241,11 @@ const Index = () => {
                 <p className="font-medium">
                   Este material foi elaborado para facilitar sua preparação para provas e avaliações sobre
                   Fisioterapia na Saúde do Trabalhador, com foco na legislação vigente e competências profissionais.
+                </p>
+
+                <p className="font-medium">
+                  Este material foi desenvolvido para estudo, não para uso comercial.
+                  Utilize como material complementar para o seu estudo, este material não substitui os slides e materiais disponibilizados pela professora em aula.
                 </p>
               </div>
             </section>
@@ -822,7 +833,7 @@ const Index = () => {
             </section>
             
             <section id="imagens-ilustrativas" className="study-section">
-              <h2><FileText size={24} className="mr-2" /> Imagens Ilustrativas (não adicionei fotos e provavelmente não irei)</h2>
+              <h2><FileText size={24} className="mr-2" /> Imagens Ilustrativas (não adicionei fotos e provavelmente não irei</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white rounded-lg shadow-md overflow-hidden">
